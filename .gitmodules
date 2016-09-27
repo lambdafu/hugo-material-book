@@ -1,0 +1,4 @@
+[submodule "themes/hugo-material-docs"]
+	path = themes/hugo-material-docs
+	url = https://github.com/lambdafu/hugo-material-docs
+	branch = lambdafu/material-book
