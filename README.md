@@ -3,6 +3,12 @@
 This is a boilerplate project for multivolume documentation using Hugo
 and the hugo-material-docs theme.
 
+```
+$ git clone --recursive https://github.com/lambdafu/hugo-material-book
+$ cd hugo-material-book
+$ hugo server
+```
+
 ## PDFs
 
 For PDF generation to work, you need Pandoc and a reasonably complete
