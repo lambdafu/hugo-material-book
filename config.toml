@@ -1,0 +1,55 @@
+baseurl = "http://replace-this-with-your-hugo-site.com/"
+languageCode = "en-us"
+title = "Hugo Material Book"
+theme = "hugo-material-docs"
+metadataformat = "yaml"
+canonifyurls = true
+
+[params]
+  provider = "GitHub"
+  repo_url = "https://github.com/lambdafu/hugo-material-book"
+  version = "0.1"
+#  logo = "images/vl.png"
+  favicon = "images/favicon.png"
+  copyright = "Marcus Brinkmann"
+  custom_css = [
+    "css/material-book.css"
+  ]
+
+[social]
+	twitter="lambdafu"
+	github = "lambdafu/hugo-material-book"
+
+[[menu.main]]
+	name   = "Introduction"
+	url    = ""
+	weight = 0
+
+[[menu.main]]
+	name   = "User's Manual"
+	url    = "user"
+	weight = 10
+        index = true
+
+[[menu.main]]
+	name   = "System Manual"
+	url    = "system"
+	weight = 20
+
+[[menu.main]]
+	name   = "Extensions Manual"
+	url    = "extensions"
+	weight = 30
+
+[[menu.main]]
+	name   = "Infrastructure Manual"
+	url    = "infrastructure"
+	weight = 40
+
+[params.palette]
+	primary = "indigo"
+	accent  = "deep-orange"
+
+[params.font]
+	text = "Open Sans"
+	code = "Inconsolata"
